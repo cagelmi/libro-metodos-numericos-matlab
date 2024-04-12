@@ -3,7 +3,7 @@ function problema_5a
 % Aplicados a Ingeniería: Casos de estudio en Ingeniería de Procesos usando
 % MATLAB", Ediciones UC, 2014.
 %
-% Última revisión: 11/05/2014.
+% Última revisión: 12/04/2024.
 
 % Método de ajuste lineal: polyit
 R = 1.987; % cal/gmol*K
