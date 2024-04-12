@@ -3,7 +3,7 @@ function problema_1
 % Aplicados a Ingeniería: Casos de estudio en Ingeniería de Procesos usando
 % MATLAB", Ediciones UC, 2014.
 %
-% Última revisión: 19/03/2014.
+% Última revisión: 19/03/2024.
 
 % Integración de las ecuaciones diferenciales
 [t c] = ode45(@prob1,[0 8],[1 0 0]);
