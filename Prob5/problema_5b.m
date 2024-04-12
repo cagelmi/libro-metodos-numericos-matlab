@@ -3,7 +3,7 @@ function problema_5b
 % Aplicados a Ingeniería: Casos de estudio en Ingeniería de Procesos usando
 % MATLAB", Ediciones UC, 2014.
 %
-% Última revisión: 11/05/2014.
+% Última revisión: 12/04/2024.
 
 % Datos experimentales
 x = [0.10 0.15 0.25 0.50 0.75 1.00 1.50 3.00]';
