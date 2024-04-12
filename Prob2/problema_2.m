@@ -3,7 +3,7 @@ function problema_2
 % Aplicados a Ingeniería: Casos de estudio en Ingeniería de Procesos usando
 % MATLAB", Ediciones UC, 2014.
 %
-% Última revisión: 19/03/2014.
+% Última revisión: 11/04/2024.
 
 % Resolución de las ecuaciones no lineales
 % Letra a
