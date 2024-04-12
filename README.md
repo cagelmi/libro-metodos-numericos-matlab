@@ -1,5 +1,5 @@
 # Libro "Metodos Numericos Aplicados a la Ingeniería: Casos de estudio utilizando MATLAB"
-## Por Héctor Jorquera y Claudio Gelmi
+## Por Héctor Jorquera y [Claudio Gelmi](https://www.linkedin.com/in/claudiogelmi/)
 
 
 Este es el repositorio de los programas pertenecientes a la sección "Casos de estudios" del texto.
