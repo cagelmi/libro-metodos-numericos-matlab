@@ -6,11 +6,11 @@ La modelación y simulación numérica son herramientas de gran ayuda en la reso
 
 Aquí encontrarán el repositorio de los programas MATLAB pertenecientes a la sección "Casos de estudios" del texto.
 
-El libro puede adquirirse en Amazon (formato papel o e-book):
+El libro puede adquirirse en **Amazon** (formato papel o e-book):
 
 https://www.amazon.com/METODOS-NUMERICOS-APLICADOS-INGENIERIA-Jorquera/dp/9587780914/
 
-Tambien desde Alfaomega México:
+Tambien desde **Alfaomega México**:
 
 https://alfaomega.com.mx/producto/metodos-numericos-aplicados-a-la-ingenieria/
 
