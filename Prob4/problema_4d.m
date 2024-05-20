@@ -1,11 +1,11 @@
 function problema_4d
-% Para ser utilizado con el texto H. Jorquera y C. Gelmi "MÃ©todos NumÃ©ricos
-% Aplicados a IngenierÃ­a: Casos de estudio en IngenierÃ­a de Procesos usando
+% Para ser utilizado con el texto H. Jorquera y C. Gelmi "Métodos Numéricos
+% Aplicados a Ingeniería: Casos de estudio en Ingeniería de Procesos usando
 % MATLAB", Ediciones UC, 2014.
 %
-% Ãšltima revisiÃ³n: 12/04/2024.
+% Última revisión: 11/05/2024.
 
-% IntegraciÃ³n del sistema diferencial
+% Integración del sistema diferencial
 options = odeset('RelTol',1e-10,'AbsTol',1e-10);
 [t,x] = ode15s(@est,[0 500],[2 5 1e-8],options);
 
@@ -25,25 +25,20 @@ ylabel('Velocidad (m/s)')
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function dx = est(t,x)
 
-% ParÃ¡metros y constantes
+% Parámetros y constantes
 cv = 0.1; D1 = 2.5; D2 = 3.0; Dt = 0.3;
 F0 = 0; g = 9.8;  h1max = 4.0;
 L = 100; mu = 0.001; ro = 1000; F2 = 0;
 
 % Relaciones constitutivas
-A1 = pi*D1^2/4; A2 = pi*D2^2/4;
+A1 = pi*D1^2/4;
+A2 = pi*D2^2/4;
 At = pi*Dt^2/4;
 Re = Dt*ro*abs(x(3))/mu;
 
 % Ecuaciones diferenciales
 dx = zeros(3,1);
-% CondiciÃ³n mÃ­nima para la velocidad en la caÃ±erÃ­a. % Valores menores no
-% son exitosos dado el paso de integraciÃ³n.
-% if x(1) >= 4 & abs(x(3)) > 0.05    
-%     dx(1) = 0;
-% else
-%     dx(1) = (F0-x(3)*At)/A1;
-% end
+% Condición mínima para la velocidad en la cañería.
 if x(1) >= 4 & x(3) < 0
     dx(1) = 0;
 else
