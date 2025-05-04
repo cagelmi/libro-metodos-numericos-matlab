@@ -8,7 +8,7 @@ Aquí encontrarán el repositorio de los programas MATLAB pertenecientes a la se
 
 El libro puede adquirirse en **Amazon** (formato papel o e-book):
 
-https://www.amazon.com/METODOS-NUMERICOS-APLICADOS-INGENIERIA-Jorquera/dp/9587780914/
+https://www.amazon.com/M%C3%A9todos-num%C3%A9ricos-aplicados-Ingenier%C3%ADa-estudio-ebook/dp/B089ZTQHVF/
 
 Tambien desde **Alfaomega México**:
 
