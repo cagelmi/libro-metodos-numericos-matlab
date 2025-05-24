@@ -14,6 +14,10 @@ Tambien desde **Alfaomega México**:
 
 https://alfaomega.com.mx/producto/metodos-numericos-aplicados-a-la-ingenieria/
 
+Y en **Ediciones UC** (Chile):
+
+https://lea.uc.cl/metodos-numericos-aplicados-a-ingenieria-primera-edicion-2014/p
+
 El texto es destacado por The MathWorks, creadores de MATLAB:
 
 https://www.mathworks.com/support/books/metodos-numericos-aplicados-a-la-ingenieria-gonzalez.html
